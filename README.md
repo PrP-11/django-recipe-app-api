@@ -19,3 +19,6 @@ Production grade django backend API project using postgres, docker and TDD style
 
 # Setup core app
 `docker-compose run app sh -c  "python manage.py startapp core"`
+
+# Setup core migrations for db
+`docker-compose run app sh -c "python manage.py makemigrations core"`
